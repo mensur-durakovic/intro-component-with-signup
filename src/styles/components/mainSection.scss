@@ -37,6 +37,11 @@
 h1 {
   font-size: 2.5em;
   line-height: 1;
+
+  @media (min-width: 768px) {
+    max-width: 80%;
+  }
+
 }
 
 h4 {
@@ -98,7 +103,7 @@ h4 {
   }
 
   &-wrapper {
-    
+
     box-sizing: border-box;
     width: 100%;
     border-radius: 8px;
@@ -162,14 +167,14 @@ input {
     border-radius: 5px;
     border: 1px solid $dark-blue;
   }
-  
+
 }
 
 .input-error {
   border: 1px solid $red;
 }
 
-.error{
+.error {
 
   &-visible {
     display: block;
@@ -216,6 +221,6 @@ small {
   font-weight: 600;
 }
 
-.disabled{
+.disabled {
   cursor: not-allowed;
 }
