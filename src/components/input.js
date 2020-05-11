@@ -10,6 +10,7 @@ const Input = React.memo((props) => {
         id={inputId}
         name={name}
         aria-labelledby={aria}
+        aria-label={aria}
         required={required}
         placeholder={placeholder}
         onChange={onChange}
